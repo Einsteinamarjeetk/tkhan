@@ -26,9 +26,9 @@ async def start(bot, update):
        await update.reply_text("Hi i am **physics wallah Downloader**.\n\n"
                               "**NOW:-** "
                                        
-                                       "Press **/login** to continue..\n\n")
+                                       "Press **/EinsteinAmarjeet** to continue..\n\n")
 
-@bot.on_message(filters.command(["login"]))
+@bot.on_message(filters.command(["EinsteinAmarjeet"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
         "Send **Auth code** in this manner otherwise bot will not respond.\n\nSend like this:-  **AUTH CODE**"
