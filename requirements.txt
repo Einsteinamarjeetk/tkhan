@@ -1,6 +1,6 @@
-Pyrogram==1.4.16
-TgCrypto
-requests
+Pyrogram==2.0.106
+TgCrypto==1.2.5
+requests==2.31.0
 pyromod==1.5
 yt-dlp==2023.03.04
 ffmpeg
